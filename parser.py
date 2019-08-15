@@ -1,7 +1,7 @@
 import requests
 
 
-def load_data():
+def load_data(data_folder):
     url = 'http://mygene.info/v3/query?q=_exists_:pathway&fields=pathway&fetch_all=TRUE'
     cnt = 0
     total = 1
